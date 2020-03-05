@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NexViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.layer.contents = (id)[UIImage imageNamed:@"bg"].CGImage;
+}
+
+
+- (IBAction)clickBtn:(id)sender {
+    NexViewController *vc = [NexViewController new];
+    self.navigationController.delegate = vc;
+    [self.navigationController pushViewController:vc animated:true];
 }
 
 

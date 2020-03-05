@@ -14,6 +14,8 @@
 		CDC7A2342410F81400344BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC7A2332410F81400344BB1 /* Assets.xcassets */; };
 		CDC7A2372410F81400344BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC7A2352410F81400344BB1 /* LaunchScreen.storyboard */; };
 		CDC7A23A2410F81400344BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC7A2392410F81400344BB1 /* main.m */; };
+		CDC7A2422410FE5A00344BB1 /* NexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC7A2412410FE5A00344BB1 /* NexViewController.m */; };
+		CDC7A2452410FFB300344BB1 /* FNTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC7A2442410FFB300344BB1 /* FNTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		CDC7A2362410F81400344BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC7A2382410F81400344BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC7A2392410F81400344BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC7A2402410FE5A00344BB1 /* NexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NexViewController.h; sourceTree = "<group>"; };
+		CDC7A2412410FE5A00344BB1 /* NexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexViewController.m; sourceTree = "<group>"; };
+		CDC7A2432410FFB300344BB1 /* FNTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNTransition.h; sourceTree = "<group>"; };
+		CDC7A2442410FFB300344BB1 /* FNTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +73,11 @@
 				CDC7A22B2410F80000344BB1 /* SceneDelegate.m */,
 				CDC7A22D2410F80000344BB1 /* ViewController.h */,
 				CDC7A22E2410F80000344BB1 /* ViewController.m */,
+				CDC7A2432410FFB300344BB1 /* FNTransition.h */,
+				CDC7A2442410FFB300344BB1 /* FNTransition.m */,
 				CDC7A2302410F80000344BB1 /* Main.storyboard */,
+				CDC7A2402410FE5A00344BB1 /* NexViewController.h */,
+				CDC7A2412410FE5A00344BB1 /* NexViewController.m */,
 				CDC7A2332410F81400344BB1 /* Assets.xcassets */,
 				CDC7A2352410F81400344BB1 /* LaunchScreen.storyboard */,
 				CDC7A2382410F81400344BB1 /* Info.plist */,
@@ -148,7 +158,9 @@
 			files = (
 				CDC7A22F2410F80000344BB1 /* ViewController.m in Sources */,
 				CDC7A2292410F80000344BB1 /* AppDelegate.m in Sources */,
+				CDC7A2452410FFB300344BB1 /* FNTransition.m in Sources */,
 				CDC7A23A2410F81400344BB1 /* main.m in Sources */,
+				CDC7A2422410FE5A00344BB1 /* NexViewController.m in Sources */,
 				CDC7A22C2410F80000344BB1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
